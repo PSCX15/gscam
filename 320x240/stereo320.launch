@@ -1,4 +1,5 @@
 <launch>
+
   <node name="left" pkg="usb_cam" type="usb_cam_node" ns="stereo" respawn="true">
 	<param name="video_device" type="str" value="/dev/video0" />
 	<param name="image_width" type="int" value="320" />
